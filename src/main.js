@@ -48,7 +48,7 @@ const registerShortcuts = (globalShortcut, clipboard, stack) => {
 };
 
 app.on("ready", () => {
-	// new BrowserWindow();
+	new BrowserWindow();
 
 	const menu = Menu.buildFromTemplate(template);
 	Menu.setApplicationMenu(menu);
